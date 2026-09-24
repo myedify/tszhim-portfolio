@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsz Him Ho | Product Management Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">TSZ HIM HO<span class="text-indigo-500">.</span></a>
+            <div class="space-x-6 text-sm text-slate-400 font-medium">
+                <a href="#about" class="hover:text-white transition-colors">關於我</a>
+                <a href="#products" class="hover:text-white transition-colors">產品作品</a>
+                <a href="#skills" class="hover:text-white transition-colors">技能棧</a>
+                <a href="mailto:tszhim80@gmail.com" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-500 transition-colors">聯絡我</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+            Associate Product Manager & Data Analytics
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+            以數據為驅動<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">，極速驗證 0 到 1 產品</span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-3xl mb-8 leading-relaxed">
+            香港科技大學數學與統計學背景。擅長結合 No-Code 工具、AI 輔助開發與數據模型，將用戶痛點轉化為具備商業價值的產品。獨立打造並發布了 5 款跨 Web、iOS 與實體商業的產品。
+        </p>
+        <div class="flex flex-wrap gap-4 text-sm text-slate-300">
+            <div class="flex items-center gap-2 bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg">
+                <i class="fa-solid fa-graduation-cap text-indigo-400"></i> HKUST Math & Stats
+            </div>
+            <div class="flex items-center gap-2 bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg">
+                <i class="fa-solid fa-rocket text-indigo-400"></i> 5+ Products Launched
+            </div>
+            <div class="flex items-center gap-2 bg-slate-900 border border-slate-800 px-4 py-2 rounded-lg">
+                <i class="fa-solid fa-users text-indigo-400"></i> 1,000+ Active Users
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-800">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-white mb-3">精選產品作品</h2>
+            <p class="text-slate-400">展示包含需求洞察、MVP 極速構建、數據分析與商業化閉環的完整實踐。</p>
+        </div>
+
+        <div class="space-y-12">
+
+            <!-- Product 1: MyStudyfy -->
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition-all">
+                <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                    <div>
+                        <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md">Web App · B2C EdTech</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">MyStudyfy — 個人化學習與弱點分析平台</h3>
+                    </div>
+                    <a href="https://app.mystudyfy.com" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 font-medium bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+                        前往網站 <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+                <div class="bg-indigo-950/30 border border-indigo-800/30 rounded-xl p-4 mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-trophy text-amber-400 text-lg"></i>
+                    <p class="text-sm font-semibold text-slate-200">核心成果：成功累積 1,000+ 註冊用戶，並獲極高社群滿意度反饋。</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-circle-exclamation text-rose-400"></i> 用戶痛點</h4>
+                        <p class="text-slate-400 leading-relaxed">學生備考試題時盲目刷題，缺乏對自身知識點弱點的客觀數據分析與進度追蹤。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-lightbulb text-amber-400"></i> 解決方案</h4>
+                        <p class="text-slate-400 leading-relaxed">設計答題分析模型，自動標記錯誤率與知識弱點，動態生成客製化練習題與學習進度圖表。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-gears text-indigo-400"></i> PM 執行重點</h4>
+                        <p class="text-slate-400 leading-relaxed">敏捷完成 MVP 構建；深入學生社群進行定性定量的反饋收集，快速驅動產品功能迭代。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2: Discover & Connect -->
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition-all">
+                <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                    <div>
+                        <span class="text-xs font-semibold text-purple-400 bg-purple-500/10 border border-purple-500/20 px-2.5 py-1 rounded-md">Physical Product · Commercial</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">Discover & Connect — 情侶深度溝通互動卡牌桌遊</h3>
+                    </div>
+                    <span class="text-xs font-semibold text-slate-400 bg-slate-800 px-3 py-1.5 rounded-lg">實體販售中</span>
+                </div>
+                <div class="bg-purple-950/30 border border-purple-800/30 rounded-xl p-4 mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-cart-shopping text-purple-400 text-lg"></i>
+                    <p class="text-sm font-semibold text-slate-200">核心成果：完成實體供應鏈量產與商業化變現，持續販售並已成功售出數十套。</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-heart text-rose-400"></i> 用戶痛點</h4>
+                        <p class="text-slate-400 leading-relaxed">情侶日常相處易陷入瑣事與固定話題，缺乏促進深度感情交流與破冰的工具。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-gamepad text-indigo-400"></i> 遊戲機制設計</h4>
+                        <p class="text-slate-400 leading-relaxed">設計由淺入深的三階段問題遞進結構，輔以高品質卡牌體驗，將情感交流轉化為互動遊戲。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-boxes-packing text-cyan-400"></i> 實體 GTM 落地</h4>
+                        <p class="text-slate-400 leading-relaxed">獨立負責印刷廠對接、紙材與包裝打樣、單位成本控管、銷售管道架設與售後用戶反饋。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3: Perkify -->
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition-all">
+                <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                    <div>
+                        <span class="text-xs font-semibold text-cyan-400 bg-cyan-500/10 border border-cyan-500/20 px-2.5 py-1 rounded-md">B2B SaaS · NFC Hardware</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">Perkify — SME 低門檻 NFC 零售會員與印花系統</h3>
+                    </div>
+                    <a href="https://www.perkifyhk.com" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 font-medium bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+                        前往網站 <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300 mt-6">
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-store text-amber-400"></i> 商戶痛點</h4>
+                        <p class="text-slate-400 leading-relaxed">中小企傳統電子會員系統成本過高，且顧客極度反感為了賺取印花而下載 App。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-wifi text-cyan-400"></i> 免 App 解決方案</h4>
+                        <p class="text-slate-400 leading-relaxed">顧客手機「嘟一嘟」NFC 牌即可感應積印花；配合商戶輕量後台，即時追蹤顧客復購率。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-400"></i> 設計與架構</h4>
+                        <p class="text-slate-400 leading-relaxed">規劃 B2B 與 B2C 雙端用戶旅程，引入動態加密驗證機制，兼顧極簡體驗與數據安全。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4: MyLogify -->
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition-all">
+                <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                    <div>
+                        <span class="text-xs font-semibold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-2.5 py-1 rounded-md">iOS App · Quantified Self</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">MyLogify — 生活數據實驗室</h3>
+                    </div>
+                    <a href="https://apps.apple.com/hk/app/mylogify-%E7%94%9F%E6%B4%BB%E6%95%B8%E6%93%9A%E5%AF%A6%E9%A9%97%E5%AE%A4/id6775759991" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 font-medium bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+                        App Store <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+                <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300 mt-6">
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-chart-line text-indigo-400"></i> 深層數據分析</h4>
+                        <p class="text-slate-400 leading-relaxed">不只展示圖表，更結合迴歸分析與趨勢擬合模型，幫助用戶找出生活習慣與精力的隱性關聯。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-lock text-emerald-400"></i> 本地優先架構</h4>
+                        <p class="text-slate-400 leading-relaxed">採用 SwiftData 構建 Local-First 處理架構，極致保護用戶個人數據隱私。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-file-code text-cyan-400"></i> PRD 與結構定義</h4>
+                        <p class="text-slate-400 leading-relaxed">撰寫完整需求文檔，定義 10 種統計分析模型的數據處理 Pipeline。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5: MyNutrify -->
+            <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition-all">
+                <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                    <div>
+                        <span class="text-xs font-semibold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-md">iOS App · AI Health</span>
+                        <h3 class="text-2xl font-bold text-white mt-2">MyNutrify — AI 飲食與熱量追蹤</h3>
+                    </div>
+                    <a href="https://apps.apple.com/hk/app/mynurtrify/id6763921606" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 font-medium bg-slate-800 hover:bg-slate-700 px-4 py-2 rounded-lg transition-colors">
+                        App Store <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-300 mt-6">
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> AI 熱量與營養分析</h4>
+                        <p class="text-slate-400 leading-relaxed">運用大語言模型實現極速飲食記錄與熱量估算，完美同步 Apple Health 健康數據。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white mb-2 flex items-center gap-2"><i class="fa-solid fa-coins text-emerald-400"></i> 商業模式探索 (BYOK)</h4>
+                        <p class="text-slate-400 leading-relaxed">探索「買斷制 + 自備 API Key (BYOK)」產品架構，測試 API 單位經濟成本與用戶付費意願。</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800">
+        <h2 class="text-3xl font-bold text-white mb-8">技能與工具箱</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+                <div class="text-indigo-400 mb-4 text-2xl"><i class="fa-solid fa-compass-drafting"></i></div>
+                <h3 class="text-lg font-bold text-white mb-3">Product Strategy</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li>• 0-to-1 Product Discovery</li>
+                    <li>• PRD & Feature Scoping</li>
+                    <li>• MVP Rapid Prototyping</li>
+                    <li>• Qualitative User Research</li>
+                    <li>• Physical GTM & Vendor Management</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+                <div class="text-cyan-400 mb-4 text-2xl"><i class="fa-solid fa-bolt"></i></div>
+                <h3 class="text-lg font-bold text-white mb-3">No-Code & Automation</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li>• Bubble.io (Proficient)</li>
+                    <li>• Glide (Proficient)</li>
+                    <li>• n8n Workflow Automation</li>
+                    <li>• RESTful APIs Integration</li>
+                    <li>• Vibe Coding / AI Workflows</li>
+                </ul>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+                <div class="text-emerald-400 mb-4 text-2xl"><i class="fa-solid fa-chart-pie"></i></div>
+                <h3 class="text-lg font-bold text-white mb-3">Data & Foundations</h3>
+                <ul class="text-slate-400 text-sm space-y-2">
+                    <li>• Statistical Modeling</li>
+                    <li>• R Programming & Analytics</li>
+                    <li>• Advanced Excel</li>
+                    <li>• Swift / SwiftData Concepts</li>
+                    <li>• Web Architecture Fundamentals</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>© 2026 Tsz Him Ho. Built for Product Management Opportunities.</p>
+    </footer>
+
+</body>
+</html>
